@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> تقرير مالي</title>
+    <link rel="icon" href="img/logo.png">
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cairo:500,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+
+  
+    <link href="css/style.css" rel="styleSheet">
+      <!-- <link href="css/English_style.css" rel="styleSheet"> -->
+
+
+</head>
+
+
+    <body id="page-top" style="background-color:rgba(254, 248, 232, 1);">
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper">
+
+            <!-- Main Content -->
+            <div id="content">
+                  <!-- Topbar -->
+            <nav class="navbar navbar-expand navbar-light topbar mb-2 static-top shadow  justify-content-between">
+
+          
+
+            </nav>
+
+                <div class="container-fluid" >
+                    <section class="section-mainCard">
+                        <div class="row justify-content-center w-100 h-100">
+                            <div class="col-11 col-sm-10 col-md-11 col-lg-11 col-xl-10 text-center p-0 ">
+                                <div class="card main-card ">
+                                      <!-- edited -->
+                                <div class="row p-2">
+                                    <a href="#" style="width: fit-content;">
+                                        <div>
+                                            <img src="img/Close.svg" alt="close_icon" class="close-icon">
+                                        </div>
+                                    
+
+                                    </a>
+                                </div>
+                                    <div class="row layout-row">
+
+                                    <div class="row" style="flex-direction: row-reverse;">
+                                        <div class="col justify-content-center d-flex title-row">
+                                            <h1 class="card-title">
+                                                تقرير مالي</h1>
+                                        </div>
+
+                                    </div>
+                                    <div class="row justify-content-center h-100 content-row">
+
+                                        <div class="col-md-11 mx-0 h-100">
+
+                                            <form id="report-form">
+
+                                                <fieldset>
+                                                    <div class="form-card" >
+                                                        <div class="row "style="flex-direction:row-reverse">
+                                                            <div class="col-md-7 col-lg-4 d-flex "style="flex-direction:row-reverse;flex-wrap:wrap">
+                                                               <div class="col-auto">
+                                                               <p>رصيد الموظف بالفرع</p>
+                                                               </div>
+                                                               <div class="col-auto personal-data">
+                                                                <P>15050.00</P>
+                                                               </div>
+                                                            </div>
+                                                            <div class="col-md-4 col-lg-3 d-flex"style="flex-direction:row-reverse">
+                                                                <div class="col-auto">
+                                                                   <P> الرصيد المتاح</P>
+                                                                </div>
+                                                                <div class="col-auto personal-data">
+                                                                    <P>0.00</P>
+                                                                </div>
+                                                             </div>
+                                                             <div class="col-md-4 col-lg-3 d-flex"style="flex-direction:row-reverse">
+                                                                <div class="col-auto">
+                                                                    <P>الرصيد المحجوز</P>
+                                                                </div>
+                                                                <div class="col-auto personal-data">
+                                                                   <P> 225.75</P>
+                                                                </div>
+                                                             </div>
+                                                        </div>
+                                                        <div class="row "style="flex-direction:row-reverse">
+                                                            
+                                                            <div class="col-md-4 col-lg-4 d-flex"style="flex-direction:row-reverse">
+                                                                <div class="col-auto">
+                                                                    <P> إجمالي الدائن
+
+                                                                    </P>
+                                                                </div>
+                                                                <div class="col-auto personal-data">
+                                                                   <P> 0.00</P>
+                                                                </div>
+                                                             </div>
+                                                             <div class="col-md-4 col-lg-3 d-flex"style="flex-direction:row-reverse">
+                                                                <div class="col-auto">
+                                                                   <P>  إجمالي المدين
+
+                                                                   </P>
+                                                                </div>
+                                                                <div class="col-auto personal-data">
+                                                                   <P> 225.75</P>
+                                                                </div>
+                                                             </div>
+                                                        </div>
+                                                        <!--edited  -->
+                                                        <div class="row py-2 seacrh-row flex-row-reverse g-3" style="justify-content: space-between;">
+                                                            <div class="col-12 col-xl-8 d-flex align-items-center Search-col flex-row-reverse flex-wrap gap-4">
+                                                                <div class="col-md-auto d-flex flex-row-reverse gap-3 align-items-center">
+                                                                    <label for="start-date">من</label>
+                                                                    <input type="date" class="form-control inputs" id="start-date" name="start-date" required>
+                                                                </div>
+                                                              <div class="col-md-auto d-flex flex-row-reverse gap-3 align-items-center">
+                                                                <label for="end-date">الي</label>
+                                                               <input type="date" class="form-control inputs" id="end-date" name="end-date" required>
+                                                              </div>
+                                                               
+                                                               <button type="submit" class="btn btn-custom me-2">عرض</button>
+                                                            </div>
+                                                            <div class="col-auto d-flex  radio-container flex-row-reverse flex-wrap" >
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input custom" type="radio" name="Options" id="all" value="All" checked/>
+                                                                        <label class="form-check-label" for="all" >الكل</label>
+                                                                    </div>
+                                                                
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input custom" type="radio" name="Options" id="Custody" value="Custody" />
+                                                                        <label class="form-check-label" for="Custody" style="color: #39629C;">عهدة</label>
+                                                                    </div>
+
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input custom" type="radio" name="Options" id="reserved" value="reserved" />
+                                                                        <label class="form-check-label" for="reserved" style="color: #FF9626;">محجوز</label>
+                                                                    </div>
+
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input custom" type="radio" name="Options" id="deported" value="deported" />
+                                                                        <label class="form-check-label" for="deported" style="color: #aa0d02;">مرحل</label>
+                                                                    </div>
+                                                                
+                                                                   
+                                                                </div>
+                                                                
+                                                            
+                                                        </div>
+                                                       <!--edited  -->
+
+                                                        <div class="row table-row px-3">
+                                                            <div class="col  scroll-table-div   table-responsive-sm  w-100 ">
+                                                                <table  class=" tables-style table table-borderless " id="reportTable" >
+                                                                    <thead>
+                                                                      <tr >
+                                                                        <th scope="col">سند</th>
+                                                                        <th scope="col">رصيد سابق</th>
+                                                                        <th scope="col">مدين </th>
+                                                                        <th scope="col">دائن</th>
+                                                                        <th scope="col">طريقة الدفع</th>
+                                                                        <th scope="col"> المرجع</th>
+                                                                        <th scope="col" class="firstTable-col">رقم القيد</th>
+                                                                        <th></th>
+                                                                      </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                      <tr>
+                                                                        <td class="text-center"> 
+                                                                            <a href="#"><img src="img/Rectangle 196.svg" alt="pdf file link icon"></a>
+                                                                        </td>
+                                                                        <td>1.000.000.00</td>
+                                                                        <td>00.00</td>
+                                                                        <td>1.000.000.00</td>
+                                                                        <td class="firstTable-col"><p>صندوق فرع الزهور</p>
+                                                                            <p>نقدًا</p>
+                                                                        </td>
+                                                                        <td class="firstTable-col"><p>24-1401-4004106-000079</p>
+                                                                            <p>إنشاء عقد</p>
+                                                                        </td>
+                                                                        <td  data-bs-toggle="modal" data-bs-target="#myModal" class="contract_number_td firstTable-col">
+                                                                            <div class="row flex-nowrap">
+                                                                                <div class="col">
+                                                                                    <p class="contract_number"> 24-1301-4004106-000100</p>
+                                                                                    <p>2024/06/30</p>
+                                                                                </div>
+                                                                               </div>
+                                                                        </td>
+                                                                        <td>
+                                                                                <div class="status-number gap-2">
+                                                                                <div class="status red-state"></div>
+                                                                                <div>1</div>
+                                                                         </div>
+                                                                        </td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                        <td class="text-center"> 
+                                                                            <a href="#"><img src="img/Rectangle 196.svg" alt="pdf file link icon"></a>
+                                                                        </td>
+                                                                        <td>1.000.000.00</td>
+                                                                        <td>00.00</td>
+                                                                        <td>1.000.000.00</td>
+                                                                        <td class="firstTable-col"><p>صندوق فرع الزهور</p>
+                                                                            <p>نقدًا</p>
+                                                                        </td>
+                                                                        <td class="firstTable-col"><p>24-1401-4004106-000079</p>
+                                                                            <p>إنشاء عقد</p>
+                                                                        </td>
+                                                                        <td  data-bs-toggle="modal" data-bs-target="#myModal" class="contract_number_td firstTable-col">
+                                                                            <div class="row flex-nowrap">
+                                                                                <div class="col">
+                                                                                    <p class="contract_number"> 24-1301-4004106-000100</p>
+                                                                                    <p>2024/06/30</p>
+                                                                                </div>
+                                                                               </div>
+                                                                        </td>
+                                                                        <td>
+                                                                                <div class="status-number gap-2">
+                                                                                <div class="status blue-state"></div>
+                                                                                <div>2</div>
+                                                                         </div>
+                                                                        </td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                        <td class="text-center"> 
+                                                                            <a href="#"><img src="img/Rectangle 196.svg" alt="pdf file link icon"></a>
+                                                                        </td>
+                                                                        <td>1.000.000.00</td>
+                                                                        <td>00.00</td>
+                                                                        <td>1.000.000.00</td>
+                                                                        <td class="firstTable-col"><p>صندوق فرع الزهور</p>
+                                                                            <p>نقدًا</p>
+                                                                        </td>
+                                                                        <td class="firstTable-col"><p>24-1401-4004106-000079</p>
+                                                                            <p>إنشاء عقد</p>
+                                                                        </td>
+                                                                        <td  data-bs-toggle="modal" data-bs-target="#myModal" class="contract_number_td firstTable-col">
+                                                                            <div class="row flex-nowrap">
+                                                                                <div class="col">
+                                                                                    <p class="contract_number"> 24-1301-4004106-000100</p>
+                                                                                    <p>2024/06/30</p>
+                                                                                </div>
+                                                                               </div>
+                                                                        </td>
+                                                                        <td>
+                                                                                <div class="status-number gap-2">
+                                                                                <div class="status orange-state"></div>
+                                                                                <div>3</div>
+                                                                         </div>
+                                                                        </td>
+                                                                      </tr>
+                                                                    </tbody>
+                                                                  </table>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </fieldset>
+
+                                            </form>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" id="myModal">
+                    <div class="modal-dialog modal-dialog-centered ">
+                      <div class="modal-content report-modal-content">
+                        <div class="modal-header "style="border-bottom:0px">
+                            <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+
+                          <h5 class="modal-title card-title m-auto">بيانات تفاصيل القيد</h5>
+                        </div>
+                        <div class="modal-body p-0">
+                            <div class="data-details">
+                         <div class="row flex-row-reverse">
+                        <div class="col-md-12 d-flex flex-row-reverse">
+                            <div class="col-auto p-0">
+                               <p>رقم القيد</p> 
+                            </div>
+                            <div class="col-auto personal-data">
+                               <p> 24-1301-4004106-000100 </p>
+                            </div>
+                        </div>
+                     
+
+                        </div>
+                      
+                        
+                            <div class="row flex-row-reverse">
+                                <div class="col-md-7 d-flex flex-row-reverse">
+                                    <div class="col-auto p-0">
+                                        <P>رقم الحساب  </P> 
+                                    </div>
+                                    <div class="col-auto personal-data">
+                                       <p>23-1-60-5001-1020136</p> 
+                                    </div>
+                                </div>
+                                  <div class="col-md-5 d-flex flex-row-reverse">
+                                    <div class="col-auto p-0">
+                                       <P> البنك</P>
+                                    </div>
+                                    <div class="col-auto personal-data">
+                                       <P> الرياض</P>
+                                    </div>
+                                  </div>
+        
+                                </div>
+                               
+                                <div class="row flex-row-reverse">
+                                    <div class="col-md-12 d-flex flex-row-reverse">
+                                        <div class="col-auto p-0">
+                                            <p> رقم تسليم العهدة</P> 
+                                        </div>
+                                        <div class="col-auto personal-data">
+                                            <P>5001-1020136</P>
+                                        </div>
+                                    </div>
+                                     
+            
+                                </div>
+                                <div class="row flex-row-reverse">
+                                    <div class="col-md-7 d-flex flex-row-reverse">
+                                        <div class="col-auto p-0">
+                                            <p> المستلم</P> 
+                                        </div>
+                                        <div class="col-auto personal-data">
+                                            <P> عادل عبدالعزيز رائد</P>
+                                        </div>
+                                    </div>
+                                      <div class="col-md-5 d-flex flex-row-reverse">
+                                        <div class="col-auto p-0">
+                                           <P> تاريخ التسليم</P>
+                                        </div>
+                                        <div class="col-auto personal-data">
+                                            <p>2024/02/03</p>
+                                        </div>
+                                      </div>
+            
+                                </div>
+                                <div class="row flex-row-reverse">
+                                    <div class="col-md-12 d-flex flex-row-reverse flex-wrap">
+                                        <div class="col-auto p-0 text-end">
+                                            الملاحظات
+                                        </div>
+                                        <div class="col-auto personal-data ">
+                                            <div class="notes_box"><p> ملاحظاات </p> </div>      
+                                         </div>
+                                    </div>
+                                      
+                                </div>
+                            </div>
+                        
+                         </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+
+                <footer class="fixed-bottom-xl">
+                    <div class="before-footer-widget">
+                        <svg width: 100%; height:auto viewbox="0 0 2444 132">
+                            <path fill="rgba(254, 248, 232, 1)" fill-rule="evenodd"
+                                d="M1222 0h1222c-444.13 88-852.127 132-1223.993 132C849.253 132 442.585 88.263 0 .789V0h1222z">
+                            </path>
+                        </svg>
+                    </div>
+
+                </footer>
+            </div>
+  
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+        <script src="js/report.js"></script>
+    </body>
+
+</html>

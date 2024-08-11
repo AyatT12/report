@@ -1,0 +1,76 @@
+ /*######################################################## */
+.notes_box{
+    direction: rtl;
+}
+
+.inputs , .form-control1 , .form-control2 , .form-select-last ,.form-select-selling ,.textarea-inputs ,.form-select-settel{
+    border-radius: 8px;
+    border: 2px solid #faa64d;
+    resize: none;
+    font-size: .875rem;
+}
+.textarea-inputs{
+    /* border-top: none; */
+    /* min-height: calc(3em + 0.75rem + calc(var(--bs-border-width)* 2)) !important; */
+}
+.inputs {
+   
+    
+    height: 32px;
+    /* border-top: none; */
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+}
+.form-control1 {
+    height: 32px;
+    width: 90px;
+    text-align: center;
+}
+
+.form-control2 {
+    text-align: center;
+    height: 32px;
+    width: 92px;
+    
+}
+
+.form-select-last {
+    /* border-top: none; */
+    width: 100% ;
+    padding-bottom: 0;
+}
+.form-select-settel {
+    /* border-top: none; */
+    padding-bottom: 0;
+    text-align: end;
+}
+.form-select-selling {
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    color: black;
+    background-color: white;
+    background-image: var(--bs-form-select-bg-img), var(--bs-form-select-bg-icon, none);
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    
+   
+
+    height: 28px;
+}
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #ff9626;
+    box-shadow: 0px 9px 20px 0rem #ff962610;
+    /* border-top: none; */
+}
+.form-select:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #ff9626;
+    box-shadow: 0px 9px 20px 0rem #ff962610;
+    /* border-top: none; */
+}

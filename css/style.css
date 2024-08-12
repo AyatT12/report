@@ -2390,7 +2390,60 @@ justify-content: center;
 
 padding-right:0px ;
 }
+/*  ستايل صفحة بيانات المستأجر التفصيلية  */
+.data-col {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+#Table-details{
+height: 47vh;
+}
+.licence-dates , .licence-dates-settel{
+    font-size: 12px;
+    margin: 0;
+    justify-content: end;
+    
+}
+/* التمديد */
+#contract-extension2-form .form-card{
+    height: 100%;
+}
+@media (min-width:767px) {
+    #dropdown-content-extension2{
+        min-width: 300px;
+    }
+}
+/* تقرير مالي  */
 
+#reportTable p{
+    margin-bottom: .4rem;
+}
+.not-in-desktop{
+    display: none !important;
+}
+/* تسوية */
+.settelDate{
+    padding: 0px 5px;
+}
+#SettlementForm .form-card{
+    height: 100%;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+@media (min-width:767px) {
+    #dropdown-content-Settlement , #dropdown-content-Settlement3{
+        min-width: 300px;
+    }
+}
+.compensation-Div-textarea textarea , .expensesDiv-textarea textarea{
+    height:50vh ;
+    min-height: 300px;
+}
+/* العهدة */
+#custody-table-div{
+    height: 40vh;
+}
 @media (max-width:425px) {
     .tables-style{
         font-size: .8rem;
@@ -2435,61 +2488,14 @@ padding-right:0px ;
 }
 @media (max-width :600px) {
     .not-in-mobile{
-        display: none;
+        display: none !important;
+    }
+    .not-in-desktop{
+        display: inherit !important;
     }
 }
 @media (min-width : 1600px) {
     .licence-dates{
         gap: 40px;  
     }
-}
-/*  ستايل صفحة بيانات المستأجر التفصيلية  */
-.data-col {
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-}
-#Table-details{
-height: 47vh;
-}
-.licence-dates , .licence-dates-settel{
-    font-size: 12px;
-    margin: 0;
-    justify-content: end;
-    
-}
-/* التمديد */
-#contract-extension2-form .form-card{
-    height: 100%;
-}
-@media (min-width:767px) {
-    #dropdown-content-extension2{
-        min-width: 300px;
-    }
-}
-/* تقرير مالي  */
-
-#reportTable p{
-    margin-bottom: .4rem;
-}
-/* تسوية */
-.settelDate{
-    padding: 0px 5px;
-}
-#SettlementForm .form-card{
-    height: 100%;
-    margin-bottom: 10px;
-    gap: 10px;
-}
-@media (min-width:767px) {
-    #dropdown-content-Settlement , #dropdown-content-Settlement3{
-        min-width: 300px;
-    }
-}
-.compensation-Div-textarea textarea , .expensesDiv-textarea textarea{
-    height:50vh ;
-    min-height: 300px;
-}
-/* العهدة */
-#custody-table-div{
-    height: 40vh;
 }

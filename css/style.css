@@ -2166,7 +2166,7 @@ input[type=checkbox] {
     height: 58vh;
     min-height: 400px;
     overflow: auto;
-    /* width: 1540px; */
+    direction: rtl;
 }
 
 .scroll-table-div::-webkit-scrollbar {

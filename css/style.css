@@ -493,10 +493,11 @@ nav {
     position: relative;
     height: 62vh;
     overflow-y: auto;
+    overflow-x: clip;
 }
-.form-card > .row:not(.table-row) {
+/* .form-card > .row:not(.table-row) {
     overflow-x: hidden;
-}
+} */
 
 #custody-form,
 #contract-extension2-form,

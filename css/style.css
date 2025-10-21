@@ -493,6 +493,8 @@ nav {
     position: relative;
     height: 62vh;
     overflow-y: auto;
+}
+.form-card > .row:not(.table-row) {
     overflow-x: hidden;
 }
 
@@ -2164,6 +2166,7 @@ input[type=checkbox] {
     height: 58vh;
     min-height: 400px;
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;

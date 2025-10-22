@@ -492,8 +492,8 @@ nav {
     width: 100%;
     position: relative;
     height: 62vh;
-    overflow-y: auto;
-    overflow-x: clip;
+    overflow: auto;
+    /* overflow-x: clip; */
 }
 /* .form-card > .row:not(.table-row) {
     overflow-x: hidden;

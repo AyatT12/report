@@ -492,13 +492,9 @@ nav {
     width: 100%;
     position: relative;
     height: 62vh;
-    overflow: auto;
-    /* overflow-x: clip; */
+    overflow-y: auto;
+    overflow-x: clip;
 }
-/* .form-card > .row:not(.table-row) {
-    overflow-x: hidden;
-} */
-
 #custody-form,
 #contract-extension2-form,
 #report-form,
@@ -2168,9 +2164,8 @@ input[type=checkbox] {
     min-height: 400px;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-start;
+    position: relative; 
+    width: 100%;
 }
 
 .scroll-table-div::-webkit-scrollbar {
@@ -2753,15 +2748,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 /* gloabal pages layout   */
 .form-card {
-    height: 70vh;
+    height: 75vh;
 }
-
-@media (max-height: 786px) {
-    .form-card {
-        height: 68vh;
-    }
-}
-
 /* *******************************************************************************  تعديل  حجم التيكست ايريا  ****************************************************************************************************** */
 .textarea-inputs {
     width: 690px;
@@ -3021,18 +3009,40 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         flex-direction: column-reverse;
     }
 }
-/*  */
-@media (max-width : 500px) {
-    .container-fluid {
-        height: 75vh;
-    }
-    .form-card{
-        height: 65vh;
-    }
-    .Hidden-word{
+
+/* Large screens (laptops) */
+@media (max-width: 1399.98px) {
+  .container-fluid {
+    height: 80vh;
+  }
+  .form-card {
+    height: 70vh;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 991.98px) {
+  .container-fluid {
+    height: 70vh;
+  }
+  .form-card {
+    height: 60vh;
+  }
+}
+
+/* Small screens (mobiles) */
+@media (max-width: 767.98px) {
+  .container-fluid {
+    height: 75vh;
+  }
+  .form-card {
+    height: 65vh;
+  }
+   .Hidden-word{
         display: none;
     }
 }
+
 @media (max-width:991px) {
     .profile-photo {
         width: 100px;

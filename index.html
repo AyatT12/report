@@ -13,83 +13,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha384-..." crossorigin="anonymous">
     <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/dripicons/2.0.0/webfont.min.css' />
-    <link href="css/style.css" rel="styleSheet">
-    <!-- <link href="css/English_style.css" rel="styleSheet"> -->
+    <link href="../../css/style.css" rel="styleSheet">
+    <!-- <link href="../../css/English_style.css" rel="styleSheet"> -->
     <style>
-        body {
-            min-height: 100dvh;
-            display: flex;
-            flex-direction: column;
-            margin: 0;
-            padding: 0;
-        }
-
-        #content-wrapper {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            min-height: 0;
-        }
-
-        .container-fluid {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            min-height: 0;
-            align-items: center;
-        }
-
-        .section-mainCard {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            min-height: 0;
-        }
-
-        .main-card {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            min-height: 0;
-            max-height: 95%;
-        }
-
-        .content-row {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            min-height: 0;
-            overflow-y: visible;
-        }
-
-        form {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            min-height: 0;
-        }
-
-        fieldset {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            min-height: 0;
-        }
-
-        .form-card {
-            height: calc(100% - 61px);
-        }
-       .reportTable-div {
-            height: 53vh !important;
-        }
-        @media(max-width:1399.98px) {
-            .main-card {
-                max-height: 80%;
-            }
-            .reportTable-div {
-                height: 40vh !important;
-            }
-        }
         @media(max-width:500px) {
             body {
                 overflow-y: hidden;
@@ -112,8 +38,8 @@
                 </nav>
             </div>
         </header>
-        <main class="main-container container-fluid" style="height: auto;">
-            <div class="row justify-content-center w-100 h-100">
+        <main class="main-container container-fluid">
+            <div class="row justify-content-center w-100 h-100" style="flex:1">
                 <div class="col-xl-10 text-center">
                     <div class="card main-card ">
                         <!-- edited -->
@@ -143,7 +69,7 @@
                                                                 <p>رصيد الموظف بالفرع</p>
                                                             </div>
                                                             <div class="col-auto personal-data">
-                                                                <p>4,600.00</p>
+                                                                <p>9,999,999.99</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -156,7 +82,7 @@
                                                                 </p>
                                                             </div>
                                                             <div class="col-auto personal-data">
-                                                                <p>4,600.00</p>
+                                                                <p>9,999,999.99</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -169,7 +95,7 @@
                                                                 </p>
                                                             </div>
                                                             <div class="col-auto personal-data">
-                                                                <p> 0.00 </p>
+                                                                <p> 9,999,999.99 </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -182,7 +108,7 @@
                                                                 </p>
                                                             </div>
                                                             <div class="col-auto personal-data">
-                                                                <p>4,600.00</p>
+                                                                <p>9,999,999.99</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -195,7 +121,7 @@
                                                                 </p>
                                                             </div>
                                                             <div class="col-auto personal-data">
-                                                                <p>00.00</p>
+                                                                <p>9,999,999.99</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -204,10 +130,8 @@
                                                 <div class="row pb-2 gy-2 seacrh-row flex-row-reverse "
                                                     style="justify-content: space-between;">
                                                     <div class="col">
-                                                        <div
-                                                            class="row flex-row-reverse align-items-cente g-1 gap-sm-3">
-                                                            <div
-                                                                class="col-auto d-flex flex-row-reverse align-items-center gap-1">
+                                                        <div class="row flex-row-reverse align-items-cente g-1 gap-sm-3">
+                                                            <div class="col-auto d-flex flex-row-reverse align-items-center gap-1">
                                                                 <label for="start-date" class="mb-0">من</label>
                                                                 <input type="date" class="form-control inputs"
                                                                     id="start-date" name="start-date"
@@ -258,12 +182,12 @@
                                                 </div>
                                                 <!--edited  -->
                                                 <div class="row table-row px-md-2">
-                                                    <div class="col  scroll-table-div  w-100 reportTable-div ">
+                                                    <div class="col  scroll-table-div  w-100 reportTable-div">
                                                         <table class="tables-style table table-borderless"
                                                             id="reportTable">
                                                             <thead>
                                                                 <tr>
-                                                                    <th scope="col">السند</th>
+                                                                    <th scope="col" class="Receipt_Col">السند</th>
                                                                     <th scope="col">الرصيد سابق</th>
                                                                     <th scope="col">مدين </th>
                                                                     <th scope="col">دائن</th>
@@ -280,24 +204,24 @@
                                                             </thead>
                                                             <tbody>
                                                                 <tr>
-                                                                    <td class="text-center">
+                                                                    <td class="Receipt_Col text-center">
                                                                         <a href="#"><img src="img/Rectangle 196.svg"
                                                                                 alt="pdf file link icon"></a>
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
                                                                         data-bs-target="#myModal">9,999,999.99
                                                                     </td>
-                                                                    <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                   <td data-bs-toggle="modal"
+                                                                        data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
                                                                         class="contract_number_td firstTable-col  not-in-mobile">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
-                                                                        <p class="secondline-p">نقدًا</p>
+                                                                        <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
                                                                         class="contract_number_td firstTable-col">
@@ -332,16 +256,16 @@
                                                                         data-bs-target="#myModal">9,999,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
                                                                         class="contract_number_td firstTable-col  not-in-mobile">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
-                                                                        <p class="secondline-p">نقدًا</p>
+                                                                        <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
                                                                         class="contract_number_td firstTable-col">
@@ -375,17 +299,17 @@
                                                                     <td data-bs-toggle="modal"
                                                                         data-bs-target="#myModal">9,999,999.99
                                                                     </td>
-                                                                    <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                   <td data-bs-toggle="modal"
+                                                                        data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
                                                                         class="contract_number_td firstTable-col  not-in-mobile">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
-                                                                        <p class="secondline-p">نقدًا</p>
+                                                                        <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
                                                                         class="contract_number_td firstTable-col">
@@ -420,16 +344,16 @@
                                                                         data-bs-target="#myModal">9,999,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
                                                                         class="contract_number_td firstTable-col  not-in-mobile">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
-                                                                        <p class="secondline-p">نقدًا</p>
+                                                                        <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
                                                                         class="contract_number_td firstTable-col">
@@ -464,16 +388,16 @@
                                                                         data-bs-target="#myModal">9,999,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
                                                                         class="contract_number_td firstTable-col  not-in-mobile">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
-                                                                        <p class="secondline-p">نقدًا</p>
+                                                                        <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
                                                                         class="contract_number_td firstTable-col">
@@ -508,16 +432,16 @@
                                                                         data-bs-target="#myModal">9,999,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
                                                                         class="contract_number_td firstTable-col  not-in-mobile">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
-                                                                        <p class="secondline-p">نقدًا</p>
+                                                                        <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
                                                                         class="contract_number_td firstTable-col">
@@ -548,6 +472,9 @@
                                                     </div>
                                                 </div>
 
+                                            </div>
+                                            <div class="row w-100" style="min-height:61px;">
+                                                
                                             </div>
                                         </fieldset>
 
@@ -705,4 +632,3 @@
 </body>
 
 </html>
-

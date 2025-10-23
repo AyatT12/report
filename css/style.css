@@ -3091,10 +3091,7 @@ fieldset {
 }
 
 .form-card {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    min-height: 0;
+ 
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -3107,6 +3104,9 @@ fieldset {
 @media(max-width:1399.98px) {
     .main-card {
         max-height: 80%;
+    }
+    .form-card{
+        height: 70vh;
     }
     .reportTable-div {
         height: 40vh !important;

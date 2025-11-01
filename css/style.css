@@ -3216,7 +3216,7 @@ fieldset {
 /* Tablet and below - adjust table heights */
 @media (max-width: 1399.98px) {
     .main-card {
-        height: 85%;
+        height: 93%;
     }
     .form-card {
         height: 70dvh;

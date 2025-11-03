@@ -2218,9 +2218,9 @@ input[type=checkbox] {
 }
 
 .Receipt_Col {
-    width: 60px !important;
-    min-width: 60px !important;
-    max-width: 80px !important;
+    width: 40px !important;
+    min-width: 40px !important;
+    max-width: 60px !important;
     text-align: center;
 }
 
@@ -3210,6 +3210,9 @@ fieldset {
 }
 
 /* test new font size in report page  */
+.Credit-debit-col{
+    width:100px;
+}
 @media (min-width: 1399.98px) {
     #reportTable {
         font-size: 15px;
@@ -3223,18 +3226,26 @@ fieldset {
     .not-in-tablet {
         display: none;
     }
+    .Credit-debit-col {
+    width: 100px;
+    max-width: 100px !important;
+    min-width: 100px !important;
+}
 }
 /*  mobile   */
 @media (max-width:768px) {
     .not-in-mobile {
         display: none;
     }
-
     #reportTable {
         font-size: 12px;
     }
-
     .report-card {
         font-size: 12px;
     }
+    .Credit-debit-col {
+    width: 100px;
+    max-width: 100px !important;
+    min-width: 100px !important;
+}
 }

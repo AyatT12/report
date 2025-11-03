@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> التقرير المالي </title>
+    <title> تقرير مالي </title>
     <link rel="icon" href="img/logo.png">
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
@@ -23,7 +22,6 @@
         }
     </style>
 </head>
-    
 <body id="page-top" >
     <!-- Content Wrapper -->
     <div id="content-wrapper">
@@ -41,7 +39,7 @@
         <main class="main-container container-fluid">
             <div class="row justify-content-center w-100 h-100" style="flex:1">
                 <div class="col-xl-10 text-center h-100">
-                    <div class="card main-card ">
+                    <div class="card main-card report-card ">
                         <!-- edited -->
                         <div class="col-md-12">
                             <div class="row py-2 align-items-center">
@@ -182,18 +180,13 @@
                                                         <table class="tables-style table table-borderless" id="reportTable">
                                                             <thead>
                                                                 <tr>
-                                                                    <th scope="col" class="Receipt_Col">السند</th>
-                                                                    <th scope="col">الرصيد سابق</th>
-                                                                    <th scope="col">مدين </th>
-                                                                    <th scope="col">دائن</th>
-                                                                    <th scope="col"
-                                                                        class="firstTable-col not-in-mobile">
-                                                                        طريقة الدفع</th>
-                                                                    <th scope="col"
-                                                                        class="firstTable-col not-in-mobile">
-                                                                        المرجع</th>
-                                                                    <th scope="col" class="firstTable-col">رقم
-                                                                        القيد</th>
+                                                                    <th class="Receipt_Col">السند</th>
+                                                                    <th class="not-in-mobile not-in-tablet">الرصيد سابق</th>
+                                                                    <th> مدين </th>
+                                                                    <th> دائن </th>
+                                                                    <th class="firstTable-col not-in-mobile not-in-tablet"> طريقة الدفع</th>
+                                                                    <th class="firstTable-col not-in-mobile"> المرجع</th>
+                                                                    <th class="firstTable-col">رقم القيد</th>
                                                                     <th></th>
                                                                 </tr>
                                                             </thead>
@@ -204,7 +197,7 @@
                                                                                 alt="pdf file link icon"></a>
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal" class="not-in-mobile not-in-tablet">9,999,999.99
                                                                     </td>
                                                                    <td data-bs-toggle="modal"
                                                                         data-bs-target="#myModal">99,999.99
@@ -213,25 +206,26 @@
                                                                         data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col  not-in-tablet not-in-mobile">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
                                                                         <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col">
-                                                                        <p class="No_Wrap_Text">
-                                                                            24-1401-4004106-000079</p>
+                                                                        class=" not-in-mobile contract_number_td firstTable-col">
+                                                                        <p class="No_Wrap_Text">24-1401-4004106-000079</p>
                                                                         <p class="secondline-p">إنشاء عقد</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col">
                                                                         <div class="row flex-nowrap">
                                                                             <div class="col">
                                                                                 <p class="No_Wrap_Text">
                                                                                     24-1301-4004106-000100</p>
                                                                                 <p class="secondline-p">
-                                                                                    2024/06/30</p>
+                                                                                    2024/06/30
+                                                                                    <span>10:12</span>
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </td>
@@ -248,7 +242,7 @@
                                                                                 alt="pdf file link icon"></a>
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal" class="not-in-mobile not-in-tablet">9,999,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
                                                                         data-bs-target="#myModal">99,999.99
@@ -257,25 +251,27 @@
                                                                         data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col  not-in-mobile not-in-tablet">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
                                                                         <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col">
+                                                                        class="not-in-mobile contract_number_td firstTable-col">
                                                                         <p class="No_Wrap_Text">
                                                                             24-1401-4004106-000079</p>
                                                                         <p class="secondline-p">إنشاء عقد</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col">
                                                                         <div class="row flex-nowrap">
                                                                             <div class="col">
                                                                                 <p class="No_Wrap_Text">
                                                                                     24-1301-4004106-000100</p>
                                                                                 <p class="secondline-p">
-                                                                                    2024/06/30</p>
+                                                                                    2024/06/30
+                                                                                    <span>10:12</span>
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </td>
@@ -292,7 +288,7 @@
                                                                                 alt="pdf file link icon"></a>
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal" class="not-in-mobile not-in-tablet">9,999,999.99
                                                                     </td>
                                                                    <td data-bs-toggle="modal"
                                                                         data-bs-target="#myModal">99,999.99
@@ -301,25 +297,27 @@
                                                                         data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col  not-in-mobile not-in-tablet">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
                                                                         <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col">
+                                                                        class="not-in-mobile contract_number_td firstTable-col">
                                                                         <p class="No_Wrap_Text">
                                                                             24-1401-4004106-000079</p>
                                                                         <p class="secondline-p">إنشاء عقد</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col">
                                                                         <div class="row flex-nowrap">
                                                                             <div class="col">
                                                                                 <p class="No_Wrap_Text">
                                                                                     24-1301-4004106-000100</p>
                                                                                 <p class="secondline-p">
-                                                                                    2024/06/30</p>
+                                                                                    2024/06/30
+                                                                                    <span>10:12</span>
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </td>
@@ -336,7 +334,7 @@
                                                                                 alt="pdf file link icon"></a>
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal" class="not-in-mobile not-in-tablet">9,999,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
                                                                         data-bs-target="#myModal">99,999.99
@@ -345,25 +343,27 @@
                                                                         data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col  not-in-mobile not-in-tablet">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
                                                                         <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col">
+                                                                        class="not-in-mobile contract_number_td firstTable-col">
                                                                         <p class="No_Wrap_Text">
                                                                             24-1401-4004106-000079</p>
                                                                         <p class="secondline-p">إنشاء عقد</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col">
                                                                         <div class="row flex-nowrap">
                                                                             <div class="col">
                                                                                 <p class="No_Wrap_Text">
                                                                                     24-1301-4004106-000100</p>
                                                                                 <p class="secondline-p">
-                                                                                    2024/06/30</p>
+                                                                                    2024/06/30
+                                                                                    <span>10:12</span>
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </td>
@@ -380,7 +380,7 @@
                                                                                 alt="pdf file link icon"></a>
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal" class="not-in-mobile not-in-tablet">9,999,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
                                                                         data-bs-target="#myModal">99,999.99
@@ -389,25 +389,27 @@
                                                                         data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col  not-in-mobile not-in-tablet">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
                                                                         <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col">
+                                                                        class="not-in-mobile contract_number_td firstTable-col">
                                                                         <p class="No_Wrap_Text">
                                                                             24-1401-4004106-000079</p>
                                                                         <p class="secondline-p">إنشاء عقد</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col">
                                                                         <div class="row flex-nowrap">
                                                                             <div class="col">
                                                                                 <p class="No_Wrap_Text">
                                                                                     24-1301-4004106-000100</p>
                                                                                 <p class="secondline-p">
-                                                                                    2024/06/30</p>
+                                                                                    2024/06/30
+                                                                                    <span>10:12</span>
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </td>
@@ -424,7 +426,7 @@
                                                                                 alt="pdf file link icon"></a>
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal" class="not-in-mobile not-in-tablet">9,999,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
                                                                         data-bs-target="#myModal">99,999.99
@@ -433,25 +435,27 @@
                                                                         data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col  not-in-mobile not-in-tablet">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
                                                                         <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col">
+                                                                        class="not-in-mobile contract_number_td firstTable-col">
                                                                         <p class="No_Wrap_Text">
                                                                             24-1401-4004106-000079</p>
                                                                         <p class="secondline-p">إنشاء عقد</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col">
                                                                         <div class="row flex-nowrap">
                                                                             <div class="col">
                                                                                 <p class="No_Wrap_Text">
                                                                                     24-1301-4004106-000100</p>
                                                                                 <p class="secondline-p">
-                                                                                    2024/06/30</p>
+                                                                                    2024/06/30
+                                                                                    <span>10:12</span>
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </td>
@@ -468,7 +472,7 @@
                                                                                 alt="pdf file link icon"></a>
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal" class="not-in-mobile not-in-tablet">9,999,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
                                                                         data-bs-target="#myModal">99,999.99
@@ -477,25 +481,27 @@
                                                                         data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col  not-in-mobile not-in-tablet">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
                                                                         <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col">
+                                                                        class="not-in-mobile contract_number_td firstTable-col">
                                                                         <p class="No_Wrap_Text">
                                                                             24-1401-4004106-000079</p>
                                                                         <p class="secondline-p">إنشاء عقد</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col">
                                                                         <div class="row flex-nowrap">
                                                                             <div class="col">
                                                                                 <p class="No_Wrap_Text">
                                                                                     24-1301-4004106-000100</p>
                                                                                 <p class="secondline-p">
-                                                                                    2024/06/30</p>
+                                                                                    2024/06/30
+                                                                                    <span>10:12</span>
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </td>
@@ -512,7 +518,7 @@
                                                                                 alt="pdf file link icon"></a>
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal" class="not-in-mobile not-in-tablet">9,999,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
                                                                         data-bs-target="#myModal">99,999.99
@@ -521,25 +527,27 @@
                                                                         data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col  not-in-mobile not-in-tablet">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
                                                                         <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col">
+                                                                        class="not-in-mobile contract_number_td firstTable-col">
                                                                         <p class="No_Wrap_Text">
                                                                             24-1401-4004106-000079</p>
                                                                         <p class="secondline-p">إنشاء عقد</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col">
                                                                         <div class="row flex-nowrap">
                                                                             <div class="col">
                                                                                 <p class="No_Wrap_Text">
                                                                                     24-1301-4004106-000100</p>
                                                                                 <p class="secondline-p">
-                                                                                    2024/06/30</p>
+                                                                                    2024/06/30
+                                                                                    <span>10:12</span>
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </td>
@@ -556,7 +564,7 @@
                                                                                 alt="pdf file link icon"></a>
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal" class="not-in-mobile not-in-tablet">9,999,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
                                                                         data-bs-target="#myModal">99,999.99
@@ -565,25 +573,27 @@
                                                                         data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col  not-in-mobile not-in-tablet">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
                                                                         <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col">
+                                                                        class="not-in-mobile contract_number_td firstTable-col">
                                                                         <p class="No_Wrap_Text">
                                                                             24-1401-4004106-000079</p>
                                                                         <p class="secondline-p">إنشاء عقد</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col">
                                                                         <div class="row flex-nowrap">
                                                                             <div class="col">
                                                                                 <p class="No_Wrap_Text">
                                                                                     24-1301-4004106-000100</p>
                                                                                 <p class="secondline-p">
-                                                                                    2024/06/30</p>
+                                                                                    2024/06/30
+                                                                                    <span>10:12</span>
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </td>
@@ -600,7 +610,7 @@
                                                                                 alt="pdf file link icon"></a>
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal" class="not-in-mobile not-in-tablet">9,999,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
                                                                         data-bs-target="#myModal">99,999.99
@@ -609,25 +619,27 @@
                                                                         data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col  not-in-mobile not-in-tablet">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
                                                                         <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col">
+                                                                        class="not-in-mobile contract_number_td firstTable-col">
                                                                         <p class="No_Wrap_Text">
                                                                             24-1401-4004106-000079</p>
                                                                         <p class="secondline-p">إنشاء عقد</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col">
                                                                         <div class="row flex-nowrap">
                                                                             <div class="col">
                                                                                 <p class="No_Wrap_Text">
                                                                                     24-1301-4004106-000100</p>
                                                                                 <p class="secondline-p">
-                                                                                    2024/06/30</p>
+                                                                                    2024/06/30
+                                                                                    <span>10:12</span>
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </td>
@@ -644,7 +656,7 @@
                                                                                 alt="pdf file link icon"></a>
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal" class="not-in-mobile not-in-tablet">9,999,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
                                                                         data-bs-target="#myModal">99,999.99
@@ -653,25 +665,27 @@
                                                                         data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col  not-in-mobile not-in-tablet">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
                                                                         <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col">
+                                                                        class="not-in-mobile contract_number_td firstTable-col">
                                                                         <p class="No_Wrap_Text">
                                                                             24-1401-4004106-000079</p>
                                                                         <p class="secondline-p">إنشاء عقد</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col">
                                                                         <div class="row flex-nowrap">
                                                                             <div class="col">
                                                                                 <p class="No_Wrap_Text">
                                                                                     24-1301-4004106-000100</p>
                                                                                 <p class="secondline-p">
-                                                                                    2024/06/30</p>
+                                                                                    2024/06/30
+                                                                                    <span>10:12</span>
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </td>
@@ -688,7 +702,7 @@
                                                                                 alt="pdf file link icon"></a>
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal" class="not-in-mobile not-in-tablet">9,999,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
                                                                         data-bs-target="#myModal">99,999.99
@@ -697,25 +711,27 @@
                                                                         data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col  not-in-mobile not-in-tablet">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
                                                                         <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col">
+                                                                        class="not-in-mobile contract_number_td firstTable-col">
                                                                         <p class="No_Wrap_Text">
                                                                             24-1401-4004106-000079</p>
                                                                         <p class="secondline-p">إنشاء عقد</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col">
                                                                         <div class="row flex-nowrap">
                                                                             <div class="col">
                                                                                 <p class="No_Wrap_Text">
                                                                                     24-1301-4004106-000100</p>
                                                                                 <p class="secondline-p">
-                                                                                    2024/06/30</p>
+                                                                                    2024/06/30
+                                                                                    <span>10:12</span>
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </td>
@@ -732,7 +748,7 @@
                                                                                 alt="pdf file link icon"></a>
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal" class="not-in-mobile not-in-tablet">9,999,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
                                                                         data-bs-target="#myModal">99,999.99
@@ -741,25 +757,27 @@
                                                                         data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col  not-in-mobile not-in-tablet">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
                                                                         <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col">
+                                                                        class="not-in-mobile contract_number_td firstTable-col">
                                                                         <p class="No_Wrap_Text">
                                                                             24-1401-4004106-000079</p>
                                                                         <p class="secondline-p">إنشاء عقد</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col">
                                                                         <div class="row flex-nowrap">
                                                                             <div class="col">
                                                                                 <p class="No_Wrap_Text">
                                                                                     24-1301-4004106-000100</p>
                                                                                 <p class="secondline-p">
-                                                                                    2024/06/30</p>
+                                                                                    2024/06/30
+                                                                                    <span>10:12</span>
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </td>
@@ -776,7 +794,7 @@
                                                                                 alt="pdf file link icon"></a>
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal" class="not-in-mobile not-in-tablet">9,999,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
                                                                         data-bs-target="#myModal">99,999.99
@@ -785,25 +803,27 @@
                                                                         data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col  not-in-mobile not-in-tablet">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
                                                                         <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col">
+                                                                        class="not-in-mobile contract_number_td firstTable-col">
                                                                         <p class="No_Wrap_Text">
                                                                             24-1401-4004106-000079</p>
                                                                         <p class="secondline-p">إنشاء عقد</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col">
                                                                         <div class="row flex-nowrap">
                                                                             <div class="col">
                                                                                 <p class="No_Wrap_Text">
                                                                                     24-1301-4004106-000100</p>
                                                                                 <p class="secondline-p">
-                                                                                    2024/06/30</p>
+                                                                                    2024/06/30
+                                                                                    <span>10:12</span>
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </td>
@@ -820,7 +840,7 @@
                                                                                 alt="pdf file link icon"></a>
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
-                                                                        data-bs-target="#myModal">9,999,999.99
+                                                                        data-bs-target="#myModal" class="not-in-mobile not-in-tablet">9,999,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal"
                                                                         data-bs-target="#myModal">99,999.99
@@ -829,25 +849,27 @@
                                                                         data-bs-target="#myModal">99,999.99
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col  not-in-mobile not-in-tablet">
                                                                         <p class="No_Wrap_Text">صندوق فرع الزهور
                                                                         </p>
                                                                         <p class="secondline-p">اميركن اكسبرس</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col">
+                                                                        class="not-in-mobile contract_number_td firstTable-col">
                                                                         <p class="No_Wrap_Text">
                                                                             24-1401-4004106-000079</p>
                                                                         <p class="secondline-p">إنشاء عقد</p>
                                                                     </td>
                                                                     <td data-bs-toggle="modal" data-bs-target="#myModal"
-                                                                        class="contract_number_td firstTable-col  not-in-mobile">
+                                                                        class="contract_number_td firstTable-col">
                                                                         <div class="row flex-nowrap">
                                                                             <div class="col">
                                                                                 <p class="No_Wrap_Text">
                                                                                     24-1301-4004106-000100</p>
                                                                                 <p class="secondline-p">
-                                                                                    2024/06/30</p>
+                                                                                    2024/06/30
+                                                                                    <span>10:12</span>
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </td>
@@ -1019,4 +1041,3 @@
 </body>
 
 </html>
-

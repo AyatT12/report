@@ -3210,30 +3210,38 @@ fieldset {
 }
 
 /* test new font size in report page  */
-.Credit-debit-col{
-    width:100px;
+.Credit-debit-col {
+    width: 100px;
 }
+
 @media (min-width: 1399.98px) {
     #reportTable {
         font-size: 15px;
     }
+
     .report-card {
         font-size: 15px;
     }
 }
+
 /* vertical tablet */
 @media screen and (min-width: 768px) and (orientation: portrait) {
     .not-in-tablet {
         display: none;
     }
+
     .Credit-debit-col {
-    width: 100px;
-    max-width: 100px !important;
-    min-width: 100px !important;
+        width: 100px;
+        max-width: 100px !important;
+        min-width: 100px !important;
+    }
+    .scroll-table-div {
+        padding: 0;
+    }
 }
-}
+
 /*  mobile   */
-@media (max-width:768px) {
+@media (max-width:767px) {
     .not-in-mobile {
         display: none;
     }
@@ -3244,8 +3252,11 @@ fieldset {
         font-size: 12px;
     }
     .Credit-debit-col {
-    width: 100px;
-    max-width: 100px !important;
-    min-width: 100px !important;
-}
+        width: 100px;
+        max-width: 100px !important;
+        min-width: 100px !important;
+    }
+    .scroll-table-div {
+        padding: 0;
+    }
 }

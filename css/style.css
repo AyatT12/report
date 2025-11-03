@@ -856,8 +856,6 @@ footer {
 }
 
 /* ////////////////////////////////custody///////////////////////////////////////////////// */
-
-
 .custody-input {
     --bs-form-check-bg: var(--bs-body-bg);
     width: 1.1em;
@@ -876,7 +874,7 @@ footer {
     appearance: none;
     position: static;
     margin: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 @media (max-width:1399.98px) {
@@ -2290,8 +2288,6 @@ input[type=checkbox] {
 
 @media (min-width:1450px) {
     .Addtion-table-style {
-
-
         direction: ltr;
         font-size: .9375rem;
     }
@@ -3210,15 +3206,13 @@ fieldset {
 }
 
 /* test new font size in report page  */
-.Credit-debit-col {
-    width: 100px;
-}
-
 @media (min-width: 1399.98px) {
+    .tables-style {
+       font-size: 15px;
+    }
     #reportTable {
         font-size: 15px;
     }
-
     .report-card {
         font-size: 15px;
     }
@@ -3229,7 +3223,6 @@ fieldset {
     .not-in-tablet {
         display: none;
     }
-
     .Credit-debit-col {
         width: 100px;
         max-width: 100px !important;
